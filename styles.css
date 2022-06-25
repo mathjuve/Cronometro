@@ -51,3 +51,9 @@ img {
 .ativo {
     opacity: 0.5;
 }
+
+@media screen and (max-width: 800px) {
+    img {
+        height: 100vw;
+    }
+}
